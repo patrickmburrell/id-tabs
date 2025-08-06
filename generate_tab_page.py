@@ -1,4 +1,3 @@
-
 # references:
 #   - https://favicon.io
 #   - https://realfavicongenerator.net
@@ -8,6 +7,7 @@ import os
 from pathlib import Path
 
 import yaml
+
 
 TEMPLATE_FILE = "template.html"
 STYLE_FILE = "style.css"
@@ -19,6 +19,7 @@ FAVICONS = {
     "work": f"{ASSETS_DIR}/a_favicon.png",
     "other": f"{ASSETS_DIR}/o_favicon.png",
 }
+
 
 VALID_CATEGORIES = ["pmb", "work", "other"]
 
