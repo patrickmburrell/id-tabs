@@ -1,1 +1,22 @@
-/Users/AIUW003/Projects/PMB/id-tab/style.css
+body {
+    font-family: sans-serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 2rem;
+}
+body.pmb {
+    background-color: #ffa500;
+}
+body.work {
+    background-color: #007bff;
+}
+body.other {
+    background-color: #808080;
+}
+.centered {
+    text-align: center;
+}
